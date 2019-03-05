@@ -1,11 +1,19 @@
 # Deque
 Data structure 2018 course work
 
-要求：完成STL库中的deque库，实现了一个封装的双端队列，要求使用迭代器并且实现STL库中deque的所有操作
+deque is an irregular acronym of double-ended queue. Double-ended queues are sequence containers with dynamic sizes that can be expanded or contracted on both ends (either its front or its back).
 
-为了提高访问速度，利用了分块思想，写了两种方案：
+## Requirements
+* the same operations with Deque in C++ STL
+* use iterator
+* no memory leaking
+* need to optimize time complexity for test
 
-1. 动态数组嵌套动态数组，优化效果不好，用时稍长；
-
-2. 链表套链表，用时较短，通过测试。
+## Realization
+use blocks
+* the block is a dynamic array and all pointers to blocks are stored in a dynamic array(finished)
+  * it's right but time-consuming.
+  * Time Limit Exceed
+* the block is a linked list and a big linked list is consist of all the blocks(finished)
+  * it's right and fast.
 
