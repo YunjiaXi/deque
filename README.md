@@ -1,7 +1,7 @@
-# Queue
+# Deque
 Data structure 2018 course work
 
-要求：完成STL库中的queue库，实现了一个封装的双端队列，要求使用迭代器并且实现STL库中queue的所有操作
+要求：完成STL库中的deque库，实现了一个封装的双端队列，要求使用迭代器并且实现STL库中deque的所有操作
 
 为了提高访问速度，利用了分块思想，写了两种方案：
 
