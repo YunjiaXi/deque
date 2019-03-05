@@ -427,7 +427,7 @@ namespace sjtu {
 		}
 
 
-		iterator copy_node_back(const iterator& orig_start, const iterator& orig_finish, iterator& cpy_start)//从前往后复制所有的点
+		iterator copy_node_back(const iterator& orig_start, const iterator& orig_finish, iterator& cpy_start)//麓脫脟掳脥霉潞贸赂麓脰脝脣霉脫脨碌脛碌茫
 		{
 			iterator tempOther = orig_start, temp = cpy_start;
 			while (tempOther != orig_finish)
